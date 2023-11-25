@@ -3,29 +3,127 @@
 --thebodytagcolor-color: #434455
 --thesamplecolor-color: white;
 
-.logo-style {
-    font-family: "Raleway" , sans-serif;
+/* Logo Styles */
+.link.web-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height 1.17;
-    letter-spacing: 0.03em ;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5; }
-
-    .link-studio-logo {
-        color: #2e2f42;
-    }
-
-    .link-style {
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42
-    }
-
-    .link-address {
-        font-style: ;
-    }
-
-    .link {
-        text-decoration: none;}
+    color: var(--logo-text-color, #4d5ae5);
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .link.web-logo .link-studio-logo {
+    color: var(--span-text-color, #2e2f42);
+  }
+  
+  /* Navigation Styles */
+  nav.liststyle {
+    list-style: none;
+  }
+  
+  .list li a.link-style.link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--link-text-color, #2e2f42);
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .list li a.link-style.link:hover {
+    color: #404bbf;
+  }
+  
+  .list li a.link-style.link:focus {
+    color: #404bbf;
+  }
+  
+  .list li:first-child a.link-style.link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--link-text-color, #2e2f42);
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .list li:first-child a.link-style.link:hover {
+    color: #404bbf;
+  }
+  
+  .list li:first-child a.link-style.link:focus {
+    color: #404bbf;
+  }
+  
+  .list li:nth-child(2) a.link-style.link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--link-text-color, #2e2f42);
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .list li:nth-child(2) a.link-style.link:hover {
+    color: #404bbf;
+  }
+  
+  .list li:nth-child(2) a.link-style.link:focus {
+    color: #404bbf;
+  }
+  
+  .list li:nth-child(3) a.link-style.link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--link-text-color, #2e2f42);
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .list li:nth-child(3) a.link-style.link:hover {
+    color: #404bbf;
+  }
+  
+  .list li:nth-child(3) a.link-style.link:focus {
+    color: #404bbf;
+  }
+  
+  /* Address Styles */
+  address {
+    font-style: normal;
+  }
+  
+  .address-list.list {
+    list-style: none;
+  }
+  
+  .address-list.list li a.link-address.link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--address-link-color, #434455);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .address-list.list li a.link-address.link:hover {
+    color: #404bbf;
+  }
+  
+  .address-list.list li a.link-address.link:focus {
+    color: #404bbf;
+  }
+  
