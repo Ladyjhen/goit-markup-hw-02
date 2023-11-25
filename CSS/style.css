@@ -17,9 +17,14 @@
    color: var(--logo-text-color, #4d5ae5) ;
    text-decoration: none;
 }
+.logo-style :hover, :focus {color: #404bbf;}
+
+.logo-style :hover
+:focus {
+    color: #404bbf;}
   
 .inside-logo {
-    color:#2e2f42;
+    text-decoration-color:#2e2f42;
 }
 
 .link-style {
@@ -66,9 +71,9 @@
     letter-spacing:0.04em;
     color: #ffffff
 }
-.section-features-button :hover, :focus {background-color: #404bbf;}
+.section-one-button :hover, :focus {background-color: #404bbf;}
 
-.section-features-button :hover
+.section-one-button :hover
 :focus {
     color: #404bbf;}
 
