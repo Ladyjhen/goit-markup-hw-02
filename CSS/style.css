@@ -1,0 +1,31 @@
+:root
+
+--thebodytagcolor-color: #434455
+--thesamplecolor-color: white;
+
+.logo-style {
+    font-family: "Raleway" , sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height 1.17;
+    letter-spacing: 0.03em ;
+    text-transform: uppercase;
+    color: #4d5ae5; }
+
+    .link-studio-logo {
+        color: #2e2f42;
+    }
+
+    .link-style {
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42
+    }
+
+    .link-address {
+        font-style: ;
+    }
+
+    .link {
+        text-decoration: none;}
