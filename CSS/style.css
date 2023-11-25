@@ -11,7 +11,8 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+   color: var(--logo-text-color, #4d5ae5) ;
+   text-decoration: none;
 }
   
 .inside-logo {
@@ -73,9 +74,21 @@
 }
 
 /*section 2*/
-.sections-two{}
-.section-two-feature {}
-.section-two-desc {}
+.sections-two {}
+
+.section-two-feature {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42
+}
+
+.section-two-desc {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
+}
 
 /*section 3*/
 /*section 4*/
