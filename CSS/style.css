@@ -24,7 +24,7 @@
     color: #404bbf;}
   
 .inside-logo {
-    text-decoration-color:#2e2f42;
+    color:#2e2f42;
 }
 
 .link-style {
@@ -62,7 +62,7 @@
   }
 
   .section-one-button {
-    background-color: #4d5ae5;
+    background-color: #404bbf;
     font-family: Roboto, sans-serif;
     color: #434455;
     font-weight: 500;
@@ -102,8 +102,40 @@
 }
 
 /*section 3*/
+.sections-three {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center ;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
 /*section 4*/
+.section-four {
+    background-color: #f4f4fd;
+}
+.section-four-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42
+}
+.section-four-team {
+    background-color: #ffffff;
 
+}
+.section-four-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42
+}
+.section -four-role {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 
 
