@@ -125,11 +125,16 @@
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    background-color: #f4f4fd;
 }
-.section-four-list  {
+.section-four-numbers  {
    background-color: #ffffff; 
 }
 .section-four-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 
 }
 
