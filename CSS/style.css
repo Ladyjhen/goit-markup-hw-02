@@ -26,7 +26,7 @@
 .inside-logo {
     color:#2e2f42;
 }
-
+/*default link*/
 .link {
     font-weight: 500;
     line-height: 1.5;
@@ -36,6 +36,7 @@
 .list {
     list-style: none;
 }
+/*default link*/
  .address-style {
     font-style: normal;
     line-height: 1.5;
