@@ -100,7 +100,7 @@
    color: #2e2f42
 }
 
-.section-two-desc {
+.desc {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455
@@ -123,12 +123,16 @@
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
     background-color: #f4f4fd;
 }
 .section-four-numbers  {
    background-color: #ffffff; 
+}
+.section-four-team {
+    background-color: #ffffff;
 }
 .section-four-name {
     font-weight: 500;
@@ -138,12 +142,6 @@
 
 }
 
-.section-four-role {
-    font-size: 16px;
-    line-height: 1.5 ;
-    letter-spacing: 0.02em;
-    color: #434455
-}
  /*footer*/
  .footer {
     background-color: #2e2f42;
