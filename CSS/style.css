@@ -6,6 +6,9 @@
     background-color: #ffffff;
 }
 
+.header {
+    background-color: ;
+}
 /* Logo Styles */
 .logo-style {
     font-family: "Raleway", sans-serif;
@@ -141,6 +144,9 @@
     color: #434455
 }
  /*footer*/
+ .footer {
+    background-color: #2e2f42;
+ }
  .text-desc-footer {
     line-height: 1.5;
     color: #f4f4fd;
