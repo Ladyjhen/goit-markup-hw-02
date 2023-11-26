@@ -107,7 +107,7 @@
 }
 
 /*section 3*/
-.sections-three-title {
+.section-three-title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center ;
@@ -117,11 +117,6 @@
 /*section 4*/
 .section-four {
     background-color: #f4f4fd;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42;
 }
 
 .section-four-title {
@@ -130,12 +125,13 @@
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    background-color: #ffffff ;
 }
 .section-four-list  {
    background-color: #ffffff; 
 }
-.section-four-name {}
+.section-four-name {
+
+}
 
 .section-four-role {
     font-size: 16px;
