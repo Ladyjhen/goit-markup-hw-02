@@ -113,7 +113,9 @@
     color: #2e2f42;
 }
 /*section 4*/
-.section-four {}
+.section-four {
+    background-color: #f4f4fd;
+}
 .section-four-title {
     font-size: 36px;
     line-height: 1.11;
