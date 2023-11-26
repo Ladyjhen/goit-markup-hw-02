@@ -115,7 +115,14 @@
     color: #2e2f42;
 }
 /*section 4*/
-.section-four {}
+.section-four {
+    background-color: #f4f4fd;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
 
 .section-four-title {
     font-size: 36px;
@@ -123,6 +130,7 @@
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    background-color: #ffffff ;
 }
 .section-four-list  {
    background-color: #ffffff; 
