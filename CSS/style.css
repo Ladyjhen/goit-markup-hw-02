@@ -1,4 +1,11 @@
-:root
+:root {
+--IRIS: #4d5ae5;
+--WHITE: #FFFFFF;
+NAVY: #2E2F42;
+SLATE: #434455;
+CLOUD: #f4f4fd;
+
+}
 /*body*/
 .body-section {
     font-family: "Roboto" , sans-serif;
@@ -33,7 +40,8 @@
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42
+    color: #2e2f42;
+    text-decoration: none;
  }
 /*default link*/
 .list {
