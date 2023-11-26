@@ -1,13 +1,13 @@
 :root
 /*body*/
 .body-section {
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto" , sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
 
 .header {
-    background-color: ;
+    background-color: #ffffff ;
 }
 /* Logo Styles */
 .logo-style {
