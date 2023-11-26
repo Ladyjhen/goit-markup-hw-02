@@ -156,41 +156,4 @@
  }
 /*portfolio*/
 
-.port-body {
-    font-family: sans-serif;
-    color: #434455
-}
 
-.port-header{}
-.port-logo {
-    font-family: Raleway, sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color:  #4d5ae5;
-    text-decoration: none;
-}
-.port-insidelogo {
-    color: #2e2f42
-}
-.port-contacts {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42
-}
-.port-contacts:hover  {color: #404bbf}
-.port-contacts:focus {color: #404bbf}
-.port-contacts:active {color: #404bbf}
-
-.port-address {
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455
-}
-
-.port-address:hover  {color: #404bbf}
-.port-address:focus {color: #404bbf}
-.port-address:active {color: #404bbf}
