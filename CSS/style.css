@@ -3,12 +3,11 @@
 --WHITE: #FFFFFF;
 NAVY: #2E2F42;
 SLATE: #434455;
-CLOUD: #f4f4fd;
+CLOUD: #f4f4fd;}
 
-}
 /*body*/
 .body-section {
-    font-family: "Roboto" , sans-serif;
+    font-family: "Roboto", sans-serif
     color: #434455;
     background-color: #ffffff;
 }
@@ -27,32 +26,40 @@ CLOUD: #f4f4fd;
    color: #4d5ae5;
 
 }
-.logo-style :hover, :focus {color: #404bbf;}
-
-.logo-style :hover
-:focus {
-    color: #404bbf;}
-  
+.logo-style :hover {color: #404bbf;}
+.logo-style :focus {color: #404bbf;}
+.logo-style :active {color: #404bbf;}
 .inside-logo {
-    color:#2e2f42;
+  color:#2e2f42;
 }
+
+.link-style {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:  #2e2f42;
+}
+
 /*default link*/
 .link {
  text-decoration: none                   ;
  }
 /*default link*/
 .list {
-    list-style: none;
+ list-style: none;
 }
 
+.address-style {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
  .contacts-color { color: #434455 }
  
  .contacts-color:hover  {color: #404bbf}
  .contacts-color:focus {color: #404bbf}
  .contacts-color:active {color: #404bbf}
- .link {
-    text-decoration: none;
- }
+ 
   /* section 1*/
   .section-one {
     background-color: #2e2f42;
@@ -154,5 +161,3 @@ CLOUD: #f4f4fd;
     letter-spacing: 0.02em;
  }
 /*portfolio*/
-
-
