@@ -1,6 +1,6 @@
 :root { --IRIS: #4d5ae5; --WHITE: #FFFFFF; NAVY: #2E2F42; SLATE: #434455; CLOUD: #f4f4fd;}
  /*body*/
-.body-section {
+body {
      font-family: "Roboto", sans-serif; 
      color: #434455; background-color: #ffffff; } 
 .header { background-color: #ffffff ; }
