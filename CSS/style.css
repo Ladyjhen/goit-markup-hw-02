@@ -1,9 +1,19 @@
-:root { --IRIS: #4d5ae5; --WHITE: #FFFFFF; NAVY: #2E2F42; SLATE: #434455; CLOUD: #f4f4fd;}
+:root { 
+    --IRIS: #4d5ae5; 
+    --WHITE: #FFFFFF; 
+    --NAVY: #2E2F42; 
+    --SLATE: #434455; 
+    --CLOUD: #f4f4fd;}
+
  /*body*/
 body {
      font-family: "Roboto",  sans-serif; 
-     color: #434455; background-color: #ffffff; } 
+     color: #434455; 
+     background-color: #ffffff; } 
+
+
 .header { background-color: #ffffff ; }
+
  /* Logo Styles */ 
  .logo-style { 
     font-family: "Raleway", sans-serif;
@@ -12,18 +22,22 @@ body {
      letter-spacing: 0.03em;
     text-transform: uppercase;
      color: #4d5ae5; } 
+
 .logo-style :hover {color: #404bbf;} 
 .logo-style :focus {color: #404bbf;} 
 .logo-style :active {color: #404bbf;}
  .inside-logo { color:#2e2f42; }
-  .link-style {
+
+.link-style {
  font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
  color: #2e2f42; } 
+
  /*default link*/ 
  .link { text-decoration: none ; } 
  /*default link*/ 
+
  .list { list-style: none; } 
  .address-style { font-style: normal;
  line-height: 1.5;
@@ -32,14 +46,18 @@ letter-spacing: 0.02em;
  .contacts-color:hover {color: #404bbf} 
  .contacts-color:focus {color: #404bbf} 
  .contacts-color:active {color: #404bbf} 
+
+
  /* section 1*/
   .section-one { background-color: #2e2f42; } 
+
   .section-one-header {
  font-size: 56px;
   line-height: 1.07; 
   text-align: center; 
   letter-spacing: 0.02em; 
   color: #ffffff } 
+
   .section-one-button { 
     background-color: #4d5ae5; 
     font-family: "Roboto", sans-serif; 
@@ -48,14 +66,19 @@ letter-spacing: 0.02em;
     font-size: 16px; 
     line-height: 1.5; 
     letter-spacing:0.04em; color: #ffffff;} 
+
+
     .section-one-button :hover, :focus {background-color: #404bbf;} 
     .section-one-button :hover :focus {color: #404bbf;} 
     .section-one-button:hover {color: #404bbf}
-     .section-one-button:focus {color: #404bbf} 
-     .section-one-button:active {color: #404bbf} 
-     .section-one-button { cursor: pointer; }
+    .section-one-button:focus {color: #404bbf} 
+    .section-one-button:active {color: #404bbf} 
+    .section-one-button { cursor: pointer; }
+
+
       /*section 2*/
        .sections-two {} 
+
        .section-two-feature { 
         font-weight: 500; 
         font-size: 20px; 
@@ -66,6 +89,7 @@ letter-spacing: 0.02em;
          line-height: 1.5; 
          letter-spacing: 0.02em; 
          color: #434455 } 
+
          /*section 3*/ 
          .section-three-title { 
             font-size: 36px; 
