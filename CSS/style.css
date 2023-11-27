@@ -1,14 +1,14 @@
 :root { --IRIS: #4d5ae5; --WHITE: #FFFFFF; NAVY: #2E2F42; SLATE: #434455; CLOUD: #f4f4fd;}
  /*body*/
 body {
-     font-family: "Roboto", sans-serif; 
+     font-family: "Roboto",  sans-serif; 
      color: #434455; background-color: #ffffff; } 
 .header { background-color: #ffffff ; }
  /* Logo Styles */ 
  .logo-style { 
     font-family: "Raleway", sans-serif;
-    font-weight: 800; font-size:
-    18px; line-height: 1.17;
+    font-weight: 800; 
+    font-size:18px; line-height: 1.17;
      letter-spacing: 0.03em;
     text-transform: uppercase;
      color: #4d5ae5; } 
